@@ -39,8 +39,8 @@ nav a {
 section {
     padding: 2em;
     
-
 }
+
 
 
 
@@ -71,3 +71,68 @@ footer {
 .linki:hover{
     color:black;
 }
+
+.detail{
+    filter: brightness(1);
+}
+
+.tytul{
+    font-family: 'Bruno Ace', sans-serif;
+    color: white;
+}
+
+.tytul1{
+    font-family: 'Bruno Ace', sans-serif;
+    color: black;
+}
+
+.main{
+    background-image: url(Bmw.png);
+    background-size: cover ;
+    filter: brightness(0.3);
+    height: 1000px;
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    height: 500px;
+    
+    
+    
+}
+
+
+
+
+
+.tile-section {
+      display: flex;
+    background-color: gray;
+      justify-content: space-around;
+      padding: 20px;
+    }
+
+    .tile {
+      flex: 1; 
+      margin-right: 20px;
+      padding: 20px;
+      box-sizing: border-box;
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+    }
+
+    
+    .tile:last-child {
+      margin-right: 0;
+    }
+
+
+.mapa{
+    width: 800px;
+}
+
+iframe{
+    width: 1800px;
+}
+
+
